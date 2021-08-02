@@ -1,0 +1,38 @@
+{
+  "name": "ext-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for EXT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ext": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toniq-Labs/ext-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toniq-Labs/ext-cli/issues"
+  },
+  "homepage": "https://github.com/Toniq-Labs/ext-cli#readme",
+  "dependencies": {
+    "@dfinity/agent": "^0.9.1",
+    "@dfinity/identity": "^0.9.1",
+    "@dfinity/principal": "^0.9.1",
+    "axios": "^0.21.1",
+    "bip39": "^3.0.4",
+    "esm-wallaby": "^3.2.25",
+    "fetch": "^1.1.0",
+    "json-bigint": "^1.0.0",
+    "jsonfile": "^6.1.0",
+    "node-fetch": "^2.6.1",
+    "os": "^0.1.1",
+    "sjcl": "^1.0.8",
+    "whatwg-fetch": "^3.6.2"
+  }
+}
